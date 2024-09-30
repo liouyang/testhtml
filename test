@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>图片预览</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+            margin: 0;
+        }
+        img {
+            max-width: 90%;  /* 让图片自适应容器宽度 */
+            height: auto;     /* 保持宽高比例 */
+            border: 2px solid #ccc; /* 添加边框 */
+            border-radius: 8px; /* 添加圆角 */
+        }
+    </style>
+</head>
+<body>
+
+    <h1>图片预览</h1>
+    <img src="https://app-static-resouce.oss-cn-hangzhou.aliyuncs.com/test/photo_2024-09-30_11-44-06.jpg" alt="预览图片">
+
+</body>
+</html>
